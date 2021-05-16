@@ -17,7 +17,7 @@ jobs:
       - name: Build project
         id: build-zip
         run: |
-          zip 5e_chn.zip module.json cn.json
+          zip 5e_zh-tw.zip module.json zh-tw.json
 
       - name: Get Version
         id: get-version
@@ -33,7 +33,7 @@ jobs:
           tag_name: ${{ steps.get-version.outputs.version }}
           files: |
             module.json
-            5e_chn.zip
+            5e_zh-tw.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
