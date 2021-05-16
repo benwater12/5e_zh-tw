@@ -1,0 +1,22 @@
+{
+  "name": "5e_zh-tw",
+  "title": "Translation: 中文 [DnD5E]",
+  "description": "為 FVTT 中的 DnD5e 系统添加了正體中文。",
+  "version": "v0.3.1",
+  "minimumCoreVersion": "0.7.9",
+  "compatibleCoreVersion": "0.8.3",
+  "author": "FVTT-CN",
+  "scripts": [],
+  "styles": [],
+  "packs": [],
+  "languages": [
+    {
+      "lang": "zh-tw",
+      "name": "正體中文",
+      "path": "zh-tw.json"
+    }
+  ],
+  "url": "https://github.com/benwater12/5e_zh-tw",
+  "manifest": "https://github.com/benwater12/5e_zh-tw/releases/latest/download/module.json",
+  "download": "https://github.com/benwater12/5e_zh-tw/archive/refs/tags/v0.3.1.zip"
+}
