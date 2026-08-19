@@ -349,6 +349,10 @@
   },
   "Expired": "Expired",
   "Expiry": {
+    "Abbreviation": {
+      "End": "End",
+      "Start": "Start"
+    },
     "GROUPS": {
       "General": "General",
       "Specific": "Specific"
@@ -1774,8 +1778,13 @@
   "Row": {
     "Actions": "Item actions",
     "Properties": "Item properties",
+    "Roll": "Die roll",
     "rollCheck": "Ability checks",
-    "rollSave": "Saving throws"
+    "rollSave": "Saving throws",
+    "Targets": "Targets"
+  },
+  "Targets": {
+    "Count": "{number}× {name}"
   },
   "TURN": {
     "NoCombatant": "Combatant no longer exists!"
@@ -2631,6 +2640,7 @@
 "DND5E.EFFECT": {
   "Action": {
     "AddChange": "Add Change",
+    "Apply": "Apply",
     "CreateEffect": "Create Effect",
     "DeleteEffect": "Delete Effect",
     "DeleteChange": "Delete Change",
@@ -2674,6 +2684,10 @@
           "priority": {
             "label": "Priority"
           },
+          "replacement": {
+            "label": "Replacement",
+            "hint": "Configure whether roll data properties in the Value are replaced prior to application, and using whose data."
+          },
           "type": {
             "label": "Type"
           },
@@ -2711,6 +2725,11 @@
   },
   "Label": "Available Effects",
   "New": "New Effect",
+  "Replacement": {
+    "NoChange": "No Change",
+    "Origin": "Origin",
+    "Target": "Target"
+  },
   "RIDER": {
     "Activity": "Enchantment Rider Activity",
     "Effect": "Enchantment Rider Effect",
@@ -5571,6 +5590,7 @@
 "DND5E.Tokens": {
   "NoneSelected": "No Tokens Selected",
   "NoneTargeted": "No Tokens Targeted",
+  "NoTargets": "No Targets",
   "Selected": "Selected",
   "Targeted": "Targeted"
 },
