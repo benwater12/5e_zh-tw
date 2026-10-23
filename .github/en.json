@@ -3983,6 +3983,10 @@
     "Standard": "Standard Languages"
   },
   "Communication": {
+    "Formatter": {
+      "Units": "{name} Units",
+      "Value": "{name} Range"
+    },
     "Label": "Ranged Communication",
     "Telepathy": "Telepathy"
   },
@@ -5303,6 +5307,9 @@
   "CreatureChanges": {
     "Label": "Creature Changes",
     "Hint": "Changes that will be made to the creature being summoned. Any @ references used in the following formulas will be based on the summoner's stats. Summoned creatures' stats can be referenced using @summon (e.g. @summon.attributes.hd.max to reference the creature's hit dice count)."
+  },
+  "DamageChanges": {
+    "Label": "Damage Changes"
   },
   "Hint": "Summon a new creature to the scene.",
   "ItemChanges": {
